@@ -24,8 +24,7 @@ export default class HeaderNoob extends Component {
 		return (
 			<div class="header-base header-noob outside">
 				<div class="-close" onclick={this.onClick}><SVGIcon>cross</SVGIcon></div>
-				<div class="-title -gap _font2">Whoa! What's going on here?</div>
-				<div class="-gap">We're making video games!</div>
+				<div class="-title -gap _font2">We're making video games!</div>
 				<div class="-gap"><strong>Ludum Dare</strong> is one of the world's largest and longest running Game Jam events. Every 4 months, we challenge creators to make a game <em>from scratch</em> in a weekend.</div>
 				<div>You can check out the latest updates in the feed below.</div>
 				<div>You can watch <strong>Live Streaming Video</strong> of people making games here: <NavLink href="//twitch.tv/communities/ludumdare"><SVGIcon>twitch</SVGIcon> twitch.tv/../ludumdare</NavLink></div>
